@@ -10,7 +10,7 @@ version = '1.0'
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
+        attributes 'Implementation-Title': 'Messagepack Quickstart', 'Implementation-Version': version
     }
 }
 
@@ -26,7 +26,6 @@ configurations {
 dependencies {
 	compile "commons-configuration:commons-configuration:1.9"
 	compile "commons-io:commons-io:2.3"
-	compile "org.freemarker:freemarker:2.3.17"
 	compile "org.slf4j:slf4j-api:1.7.5"
 	runtime "org.slf4j:jcl-over-slf4j:1.7.5"
 	compile "ch.qos.logback:logback-core:1.0.13"
